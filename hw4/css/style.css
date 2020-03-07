@@ -1,0 +1,96 @@
+body{
+    background: rgb(153, 9, 9);
+    font-size: 18px;
+    color: white;
+}
+
+.title{
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    background: black;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.nav figure{
+    padding-right: 80px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.nav figcaption{
+    text-align: center;
+}
+
+.nav a{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.text{
+    width: 1000px;
+    text-align: justify;
+    margin-right: 10px;
+    padding: 0,40,20,0px;
+}
+
+.content{
+    display: flex;
+    height: 320px;
+}
+
+.list{
+    
+    background: rgb( 125, 9, 9);
+    padding: 0px 60px 40px 0px;
+    margin: 0px 0px 20px 5px;
+    display: inline;
+}
+ul li{
+    padding-top: 20px;
+}
+
+ul a{
+    color: rgb(233, 91, 13);
+}
+
+aside {
+    float: right;
+    background: #DCDCDC ;
+    width: 180px;
+    color: black;
+   }
+   hr{ text-align: center;
+       width: 80px;
+   }
+h2{ 
+    color: black;
+    font-weight: bold;
+    background-color: #C0C0C0;
+    text-align: center;
+   }
+   p{
+       padding: 5px;
+   }
+
+
+.footer{
+    background: rgb(233, 91, 13);
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
